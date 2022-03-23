@@ -71,7 +71,82 @@ body
     width: 100%;
     height: 300px;
     background-color: hsl(179, 62%, 43%);
+    display: flex;
+    flex-wrap: nowrap;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
 }
+
+.LeftDetailSection
+{
+    width: 50%;
+    height: 100%;
+    background-color: #2bb3b1;
+    border-bottom-left-radius: 10px;        
+    display: flex;
+    align-items: center;
+}
+
+.LeftDetailsWrapper
+{
+    height: 80%;
+    margin: auto;
+}
+
+.SubscriptionTitle
+{
+    margin-top: 30px;
+    font-size: 20px;
+    color: white;
+}
+
+.PriceWrapper
+{
+    color: hsl(204, 43%, 93%);    
+    margin-top: 20px;
+}
+
+.PriceWrapper .Price
+{
+    font-size: 30px;    
+    color: white;
+}
+
+.PriceDetails
+{
+    font-size: 18px;
+    color:white;
+    margin-top: 10px;
+}
+
+.SignUpBtnWrapper
+{
+    margin-top: 30px;
+    height: 50px;
+    background-color: hsl(71, 73%, 54%);
+    border-radius: 10px;
+    color: white;
+    text-align: center;
+    padding-top: 14px;
+    font-size:18px;
+    cursor: pointer;
+}
+
+.RightDetailSection
+{
+    width: 50%;
+    height: 100%;
+    background-color: #4abebd;
+    border-bottom-right-radius: 10px;   
+}
+
+
+
+
+
+
+
+
 
 .row::after {
     content: "";
